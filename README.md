@@ -32,49 +32,15 @@ Users can retrieve emails simply by speaking commands such as:
 
 ## 🧠 System Architecture
 
-Voice Input (.mp3)
-↓
-Offline Speech-to-Text (Parakeet)
-↓
-LangGraph Agent Workflow
-↓
-Gemini API (Intent + Filter Extraction)
-↓
-Structured Email Query (JSON)
-↓
-Gmail API
-↓
-Email Retrieval
-↓
-Gemini Summary Generation
-↓
-Text-to-Speech Output
+<img width="538" height="687" alt="image" src="https://github.com/user-attachments/assets/db1d09c3-8462-4240-b68f-cd0dba867c1f" />
 
 
 ---
 
 ## 📂 Project Structure
 
-email-agent/
-│
-├── main/
-│ ├── node.py
-│ ├── workflow.py
-│ ├── controll_mail.py
-│ ├── test_gmail_api.py
-│
-├── parakeet_model/
-│ ├── README.md
-│ └── cache/ (auto-downloaded)
-│
-├── audio/
-├── audio_backup/
-├── response/
-│
-├── train_parkeet.py
-├── requirements.txt
-├── .env
-└── README.md
+<img width="854" height="626" alt="image" src="https://github.com/user-attachments/assets/f8383c5a-3c80-4fc3-8751-5dd8f2c2736b" />
+
 
 
 
@@ -86,9 +52,8 @@ Follow the steps below to run this project locally.
 
 ---
 
-### 1️⃣ Clone the Repository
+1️⃣ Clone the Repository
 
-```bash
 git clone https://github.com/your-username/email-voice-agent.git
 cd email-voice-agent
 
@@ -242,7 +207,7 @@ Docker Deployment
 
 Real-Time Microphone Input
 
-👨‍💻 Author
+
 
 Sameer Khan
 AI Developer | LangGraph | Voice Agents | Automation
