@@ -1,0 +1,77 @@
+# ==============================
+# Python Cache Files
+# ==============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# ==============================
+# Virtual Environment
+# ==============================
+myenv/
+venv/
+env/
+
+# ==============================
+# Environment Variables
+# ==============================
+.env
+
+# ==============================
+# Gmail API Credentials
+# ==============================
+token.json
+credentials.json
+
+# ==============================
+# Parakeet STT Model (Heavy Files)
+# ==============================
+parakeet_model/cache/
+parakeet_model/*.bin
+parakeet_model/*.pt
+parakeet_model/*.onnx
+parakeet_model/*.ckpt
+
+# ==============================
+# Audio Files (Runtime)
+# ==============================
+audio/
+audio_backup/
+response/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+
+# ==============================
+# VS Code
+# ==============================
+.vscode/
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Build / Distribution
+# ==============================
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Temporary Files
+# ==============================
+*.tmp
+*.temp
